@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@import url("robot.css");
+
+.swagger-ui {
+    color: white !important;
+    background-color: black !important;
+}
+
+.swagger-ui .info .title {
+    color: white !important;
+    font-family: sans-serif;
+    font-size: 36px;
+    margin: 0;
+}
+
+.swagger-ui h3 {
+    color: lightslategrey !important;
+}
+
+.swagger-ui span.opblock-summary-path {
+    color: lightgrey !important;
+}
+
+.swagger-ui span.opblock-summary-method {
+    color: black !important;
+}
+
+.swagger-ui svg.arrow {
+    background-color: whitesmoke;
+}
+
+.swagger-ui p {
+    color: white !important;
+}
+
+.swagger-ui .opblock-summary-description {
+    color: gainsboro !important;
+}
+
+.opblock-summary.opblock-summary-get {
+    background-image: linear-gradient(black, darkblue 90%);
+}
+
+.opblock-summary.opblock-summary-delete {
+    background-image: linear-gradient(black, darkred 90%);
+}
+
+.opblock-summary.opblock-summary-post {
+    background-image: linear-gradient(black, darkgreen 90%);
+}
+
+.opblock-summary.opblock-summary-put {
+    background-image: linear-gradient(black, saddlebrown 90%);
+}
+
+.swagger-ui html {
+  box-sizing: border-box
+}
+
+.swagger-ui *, .swagger-ui :after, .swagger-ui :before {
+  box-sizing: inherit
+}
+
+.swagger-ui body {
+  margin: 0;
+  background: #fafafa
+}
+
+.swagger-ui .wrapper {
+  width: 100%;
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 0 20px
+}
